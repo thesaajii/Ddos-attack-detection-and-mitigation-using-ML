@@ -1,0 +1,3 @@
+timestamp,datapath_id,flow_id,ip_src,tp_src,ip_dst,tp_dst,ip_proto,icmp_code,icmp_type,flow_duration_sec,flow_duration_nsec,idle_timeout,hard_timeout,flags,packet_count,byte_count,packet_count_per_second,packet_count_per_nsecond,byte_count_per_second,byte_count_per_nsecond
+1722387541.029496,2,10.0.0.1010.0.0.401,10.0.0.1,0,10.0.0.4,0,1,0,0,33,654000000,20,100,0,26,2548,0.7878787878787878,3.975535168195719e-08,77.21212121212122,3.896024464831804e-06
+1722387541.029496,2,10.0.0.4010.0.0.101,10.0.0.4,0,10.0.0.1,0,1,0,8,33,670000000,20,100,0,27,2646,0.8181818181818182,4.029850746268657e-08,80.18181818181819,3.949253731343283e-06
