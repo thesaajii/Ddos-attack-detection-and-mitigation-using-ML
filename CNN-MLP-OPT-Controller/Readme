@@ -1,7 +1,7 @@
 
 DDoS Attack Detection and Mitigation in SDN using MLP, CNN, and Combined CNN-MLP Models
 
-This repository contains the implementation of a traffic detection and mitigation system for Software-Defined Networking (SDN) using machine learning models. The system leverages **Multilayer Perceptron (MLP)**, **Convolutional Neural Networks (CNN)**, and a **Combined CNN-MLP model** to detect and mitigate Distributed Denial of Service (DDoS) attacks. These models are trained on the **INSDN Dataset** and the **CICDDoS-2019 Dataset** and are evaluated on both these datasets as well as a custom dataset for real-world testing.
+This repository contains the implementation of a traffic detection and mitigation system for Software-Defined Networking (SDN) using machine learning models. The system leverages Multilayer Perceptron (MLP), Convolutional Neural Networks (CNN), and a Combined CNN-MLP model to detect and mitigate Distributed Denial of Service (DDoS) attacks. These models are trained on the INSDN Dataset and the CICDDoS-2019 Dataset and are evaluated on both these datasets as well as a custom dataset for real-world testing.
 
 Datasets
 
