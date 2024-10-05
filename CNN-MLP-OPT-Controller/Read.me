@@ -1,0 +1,41 @@
+
+DDoS Attack Detection and Mitigation in SDN using MLP, CNN, and Combined CNN-MLP Models
+
+This repository contains the implementation of a traffic detection and mitigation system for Software-Defined Networking (SDN) using machine learning models. The system leverages **Multilayer Perceptron (MLP)**, **Convolutional Neural Networks (CNN)**, and a **Combined CNN-MLP model** to detect and mitigate Distributed Denial of Service (DDoS) attacks. These models are trained on the **INSDN Dataset** and the **CICDDoS-2019 Dataset** and are evaluated on both these datasets as well as a custom dataset for real-world testing.
+
+Datasets
+
+- INSDN Dataset: This dataset, available [here](https://www.kaggle.com/datasets/badcodebuilder/insdn-dataset/), is specifically designed for SDN environments and includes normal and DDoS traffic patterns.
+- CICDDoS-2019 Dataset: This dataset, available [here](https://www.kaggle.com/datasets/dhoogla/cicddos2019), is a comprehensive collection of DDoS attack data collected over five days, covering multiple attack types.
+
+Models
+
+1. Multilayer Perceptron (MLP)
+The MLP model is a fully connected neural network with multiple layers used for detecting DDoS attacks. This model is trained on preprocessed traffic data from the datasets, using data normalization and augmentation techniques to improve performance.
+
+2. Convolutional Neural Network (CNN)
+The CNN model consists of convolutional layers followed by fully connected layers, which help capture spatial features of network traffic data. The model is trained and evaluated to enhance DDoS detection by learning both temporal and spatial traffic patterns.
+
+3. Combined CNN-MLP Model
+The Combined CNN-MLP model merges the advantages of both CNN and MLP models. It combines the feature extraction capabilities of CNN with the classification power of MLP to improve DDoS detection accuracy. This hybrid model is evaluated on both the INSDN and CICDDoS-2019 datasets for robust performance.
+
+Implementation and Training
+
+The models are trained using the INSDN and CICDDoS-2019 datasets. After successful training and evaluation on these datasets, the system was tested in a custom environment with real-world traffic data. The goal was to simulate real-world scenarios and evaluate the system's performance in detecting and mitigating DDoS attacks in SDN.
+
+Key steps include:
+
+- Preprocessing: Cleaning, formatting, and normalizing the datasets.
+- Training: Training the MLP, CNN, and Combined CNN-MLP models on the datasets.
+- Evaluation: Evaluating the models' accuracy, precision, recall, F1-score, and performance in real-world conditions using a custom dataset.
+- Mitigation: Implementing real-time DDoS mitigation strategies based on the detection results in SDN.
+
+Results
+
+The models were evaluated based on the following metrics:
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+
+The evaluation was performed on the INSDN and CICDDoS-2019 datasets, as well as in a custom environment to simulate real-world traffic conditions. Detailed results can be found in the `results/` directory.
